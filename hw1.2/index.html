@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        .father {
+            width: 900px;
+            height: 600px;
+            background: darkturquoise;
+        }
+
+        .box {
+            width: 75%;
+            height: 65%;
+            background: deeppink;
+        }
+
+        .flex {
+            display: flex;
+            align-items: flex-end;
+            flex-wrap: wrap;
+        }
+
+        .box-one {
+            width: 33.3333%;
+            height: 50%;
+            background: gold;
+        }
+
+        .box-two {
+            width: 33.3333%;
+            height: 50%;
+            background: darkorange;
+        }
+
+        .box-three {
+            width: 33.3333%;
+            height: 50%;
+            background: dodgerblue;
+        }
+
+        .big-box {
+            width: 25%;
+            height: 65%;
+            background: lime;
+            display: flex;
+            align-items: flex-start;
+
+        }
+    </style>
+</head>
+<body>
+<div class="father flex">
+    <div class="box flex">
+        <div class="box-one"></div>
+        <div class="box-two"></div>
+        <div class="box-three"></div>
+        <div class="box-three"></div>
+        <div class="box-one"></div>
+        <div class="box-two"></div>
+    </div>
+    <div class="big-box"></div>
+</div>
+</body>
+</html>
